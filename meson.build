@@ -1,6 +1,5 @@
 project('example', 'c')
 
-cc = meson.get_compiler('c')
 foo_dir = meson.source_root() + '/foo'
 foo = custom_target(
   'libfoo',
